@@ -1,10 +1,10 @@
-\"\"\"
+"""
 FastAPI backend for the Plant Disease Classifier.
 
 Loads the fine-tuned ResNet18 once at startup, exposes a /predict
 endpoint that accepts an image upload and returns the top prediction
 plus confidence.
-\"\"\"
+"""
 
 import io
 
